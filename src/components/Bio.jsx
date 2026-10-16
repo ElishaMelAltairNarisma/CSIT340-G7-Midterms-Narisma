@@ -1,9 +1,11 @@
 function Bio() {
+    const name = "ELISHA MEL ALTAIR NARISMA";
+    const username = "@elishamelaltairnarisma";
     return (
     <header>
-            <h2 className="text-6xl font-bold">ELISHA MEL ALTAIR NARISMA</h2>
+            <h2 className="text-6xl font-bold">{name}</h2>
             <p className="mt-1 text-2xl text-[#FA8112]">
-              @elishamelaltairnarisma
+              {username}
             </p>
             <p className="mt-3 text-2xl">Front-end developer from Cebu City.</p>
           </header>
